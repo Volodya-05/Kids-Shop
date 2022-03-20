@@ -1,0 +1,191 @@
+.header-top{
+    border-bottom: 1px solid #ccc;
+}
+
+.container{
+    width: 100%;
+    max-width: 1140px;
+    min-width: 480;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.header-top .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-top .container ul{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    line-height: 45px;
+}
+
+.header-top .container > ul > li > a{
+    color: #404E65;
+    font-weight: bold;
+}
+
+.header-top .container > ul > li > a:hover{
+    color: rgb(0, 102, 255);
+    transition: .3s;
+}
+
+.header-top .container >ul > li > ul{
+    display: none;
+}
+
+.header-top .container > ul > li:hover > ul{
+    width: 200px;
+    display: block;
+    position: absolute;
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    z-index: 1; 
+    transition: .3s;
+}
+
+.header-top .container > ul > li > ul a{
+    padding: 0px 5px;
+    display: block;
+    min-width: 250px;
+    color: #485f85;
+}
+
+.header-top .container > ul > li > ul a:hover{
+    color: rgb(0, 102, 255);
+}
+
+.header-top .container > ul > li:last-child > a{
+    font-weight: normal;
+}
+
+.header-top .container > a{
+    font-weight: bold;
+}
+
+.header-second .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-second .container > div{
+    line-height: 150px;
+}
+
+.header-second .container > div:first-child i{
+    margin: 0 2px;
+    font-size: 30px;
+    color: #fff;
+    background-color: #404E65;
+    border-radius: 50%;
+    padding: 7px;
+}
+
+.header-second .container > div:first-child i:hover{
+    background-color: rgb(0, 102, 255);
+    transition: .2s;
+}
+
+.header-second .container > div:last-child i{
+    margin: 0px 10px;
+    font-size: 26px;
+    color: #404E65;
+}
+
+.header-second .container > div:last-child i:hover{
+    color: rgb(0, 102, 255);
+    transition: .2s;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+nav ul li{
+    width: 150px;
+}
+
+nav ul li a{
+    color: #404E65;
+    font-size: 18px;
+}
+
+nav ul li a i{
+    font-size: 70px;
+    color: #404E65;
+}
+
+nav >.container > ul > li > a:hover{
+    color: #56b0f2;
+}
+
+nav > .item{
+    margin-top: 30px;
+}
+
+nav > .item > .nav-left{
+    color: #404e65;
+    width: 200px;
+    position: absolute;
+    bottom: 10px;
+    left: 100px;
+    font-size: 36px;
+    line-height: 42px;
+}
+
+nav > .nav-right > .div_1 > button{
+    width: 200px;
+    height: 50px;
+    margin-left: 100px;
+    border-radius: 50px;
+    border: 4px solid #c7c7c7;
+    color: #c7c7c7;
+    background-color: #fff;
+    margin: 50px 10px;
+    font-size: 15px;
+    margin-left: 100px;
+}
+
+nav > .nav-right > .div_1 > button:hover{
+    border-color: #56b0f2;
+    color: #56b0f2;
+    transform: .3s;
+}
+
+section{
+   width: 100%;
+}
+
+section > .section-left{
+    background-color: #ccc;
+    width: 20%;
+    display: inline-block;
+    border-radius: 5px;
+    border: 5px solid gray;
+    margin: 30px 30px;
+    padding: 25px;
+}
+
+section > .section-left:hover{
+   border: 5px solid slateblue;
+   background-color: #fff;
+   transition: .5s;
+}
+
+section > .section-left > img{
+    width: 300px;
+}
+
+section > .section-left > a > i{
+    color: #000000d5;
+}
+
+section > .section-left > a > i:hover{
+   color: rgba(0, 89, 255, 0.589);
+}
